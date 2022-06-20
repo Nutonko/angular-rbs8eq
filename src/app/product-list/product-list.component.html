@@ -13,7 +13,9 @@
     Share
   </button>
 
-  <app-product-alerts [Product]="product">
+  <app-product-alerts 
+    [Product]="product"
+    (notify)="onNotify()">
   </app-product-alerts>
 
 </div> 
